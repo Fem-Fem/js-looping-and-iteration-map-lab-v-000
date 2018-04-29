@@ -17,13 +17,13 @@ function lowerCaseDrivers(drivers) {
 //   return x;
 // }
 
-function attributesToPhrase(drivers) {
-
-  x = drivers.map(function (driver) {
-    name = driver[:name];
-    hometown = driver[:hometown];
-    return "y";
-    // return "${name} is from ${hometown}";
-  });
-  return x;
-}
+// function attributesToPhrase(drivers) {
+//
+//   x = drivers.map(function (driver) {
+//     name = driver[:name];
+//     hometown = driver[:hometown];
+//     return "y";
+//     // return "${name} is from ${hometown}";
+//   });
+//   return x;
+// }
