@@ -11,8 +11,8 @@ function nameToAttributes(drivers) {
     split = driver.split(" ");
     // return split;
     const newObj = {};
-    newObj.firstName = split[0];
-    newObj.lastName = split[1];
+    newObj["firstName"] = split[0];
+    newObj["lastName"] = split[1];
     return newObj;
   });
   return x;
