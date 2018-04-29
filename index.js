@@ -26,5 +26,5 @@ function attributesToPhrase(drivers) {
     return "y";
     // return "${name} is from ${hometown}";
   });
-  return x
+  return x;
 }
