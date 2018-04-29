@@ -23,7 +23,7 @@ function attributesToPhrase(drivers) {
     name = driver.name;
     hometown = driver.hometown;
 
-    return name[0]
+    return hometown[0]
     // return "#{name} is from #{hometown}";
   });
   return x;
