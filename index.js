@@ -13,7 +13,6 @@ function nameToAttributes(drivers) {
     const newObj = {};
     newObj.firstName = split[0];
     newObj.lastName = split[1];
-    // return split[0];
     return newObj;
   });
   return x
