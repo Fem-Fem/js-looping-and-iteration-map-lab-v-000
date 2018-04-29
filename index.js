@@ -17,3 +17,16 @@ function nameToAttributes(drivers) {
   });
   return x
 }
+
+function attributesToPhrase(drivers) {
+
+  x = drivers.map(function (driver) {
+    split = driver.split(" ");
+    return split;
+    const newObj = {};
+    newObj.firstName = split[0];
+    newObj.lastName = split[1];
+    return newObj;
+  });
+  return x
+}
