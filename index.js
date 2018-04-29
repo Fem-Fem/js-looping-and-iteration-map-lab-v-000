@@ -8,7 +8,7 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
 
   x = drivers.map(function (driver) {
-    split = str.split(" ");
+    split = driver.split(" ");
     return split;
     // newObj = {};
     // newObj["firstName"] = split[0];
