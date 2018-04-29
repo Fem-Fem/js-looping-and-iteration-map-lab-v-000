@@ -20,7 +20,7 @@ function lowerCaseDrivers(drivers) {
 function attributesToPhrase(drivers) {
 
   x = drivers.map(function (driver) {
-    name = driver[:name];
+    name = driver[name];
     return name
     // hometown = driver[:hometown];
     // return "y";
