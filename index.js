@@ -9,7 +9,7 @@ function nameToAttributes(drivers) {
 
   x = drivers.map(function (driver) {
     split = driver.split(" ");
-    return split;
+    // return split;
     const newObj = {};
     newObj.firstName = split[0];
     newObj.lastName = split[1];
@@ -21,12 +21,11 @@ function nameToAttributes(drivers) {
 function attributesToPhrase(drivers) {
 
   x = drivers.map(function (driver) {
-    split = driver.split(" ");
-    return split;
-    const newObj = {};
-    newObj.firstName = split[0];
+
+    name = ;
     newObj.lastName = split[1];
-    return newObj;
+    y =
+    return "is from ";
   });
   return x
 }
