@@ -15,7 +15,7 @@ function nameToAttributes(drivers) {
     newObj.lastName = split[1];
     return newObj;
   });
-  return x
+  return x;
 }
 
 function attributesToPhrase(drivers) {
