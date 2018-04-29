@@ -12,6 +12,6 @@ function nameToAttributes(drivers) {
     newObj = {};
     newObj["firstName"] = split[0];
     newObj["lastName"] = split[1];
-  return driver.toLowerCase();});
+  return newObj;});
   return x
 }
