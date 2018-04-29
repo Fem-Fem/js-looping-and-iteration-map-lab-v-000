@@ -5,10 +5,8 @@ function lowerCaseDrivers(drivers) {
   return x
 }
 
-//
-//   return Object.assign({}, lc, { equipment: 'Laptop' });
-// }
-//
-// const equippedEngineers = newEngineers.map(function (eng) {
-//   return Object.assign({}, eng, { equipment: 'Laptop' });
-// });
+function nameToAttributes(drivers) {
+
+  x = drivers.map(function (driver) { return driver.toLowerCase();});
+  return x
+}
