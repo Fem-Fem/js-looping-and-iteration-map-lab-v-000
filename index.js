@@ -9,6 +9,7 @@ function nameToAttributes(drivers) {
 
   x = drivers.map(function (driver) {
     split = str.split(" ");
+    return split;
     // newObj = {};
     // newObj["firstName"] = split[0];
     // newObj["lastName"] = split[1];
