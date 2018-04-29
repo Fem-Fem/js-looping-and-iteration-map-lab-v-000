@@ -1,9 +1,11 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
 
-  drivers.map(function (driver) {
+  x = drivers.map(function (driver) {
     return driver.toLowerCase());
-  });}
+  });
+  return x
+}
 
 //
 //   return Object.assign({}, lc, { equipment: 'Laptop' });
