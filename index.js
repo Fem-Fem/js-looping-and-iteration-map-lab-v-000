@@ -22,8 +22,7 @@ function attributesToPhrase(drivers) {
   x = drivers.map(function (driver) {
     name = driver.name;
     hometown = driver.hometown;
-    z = `${name} is from ${hometown}`
-    return z;
+    return `${name} is from ${hometown}`
   });
   return x;
 }
