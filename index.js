@@ -7,6 +7,10 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
 
-  x = drivers.map(function (driver) { return driver.toLowerCase();});
+  x = drivers.map(function (driver) {
+    newObj = {};
+    newObj["firstName"] =
+    newObj["lastName"] =
+  return driver.toLowerCase();});
   return x
 }
